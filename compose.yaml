@@ -1,0 +1,7 @@
+services:
+  ollama:
+    image: "docker.io/matevz/ollama-benchmark"
+    build: .
+    platform: linux/amd64
+    volumes:
+      - /storage/ollama:/root/.ollama
