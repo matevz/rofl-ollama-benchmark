@@ -1,0 +1,30 @@
+-------Linux----------
+{'id': '0', 'name': 'NVIDIA GeForce GTX 1070', 'driver': '535.230.02', 'gpu_memory_total': '8192.0 MB', 'gpu_memory_free': '7860.0 MB', 'gpu_memory_used': '250.0 MB', 'gpu_load': '0.0%', 'gpu_temperature': '52.0°C'}
+Only one GPU card
+Total memory size : 124.48 GB
+cpu_info: INTEL(R) XEON(R) SILVER 4510
+gpu_info: NVIDIA GeForce GTX 1070
+os_version: Ubuntu 24.04.2 LTS
+ollama_version: 0.6.4
+----------
+running custom benchmark from models_file_path: custombenchmarkmodels.yml
+Disabling sendinfo for custom benchmark
+LLM models file path：custombenchmarkmodels.yml
+Checking and pulling the following LLM models
+deepseek-r1:1.5b
+----------
+Running custom-model
+model_name =    deepseek-r1:1.5b
+prompt = Summarize the key differences between classical and operant conditioning in psychology.
+eval rate:            80.06 tokens/s
+prompt = Translate the following English paragraph into Chinese and elaborate more -> Artificial intelligence is transforming various industries by enhancing efficiency and enabling new capabilities.
+eval rate:            86.50 tokens/s
+prompt = What are the main causes of the American Civil War?
+eval rate:            80.77 tokens/s
+prompt = How does photosynthesis contribute to the carbon cycle?
+eval rate:            80.10 tokens/s
+prompt = Develop a python function that solves the following problem, sudoku game.
+eval rate:            64.67 tokens/s
+--------------------
+Average of eval rate:  78.42  tokens/s
+----------------------------------------
